@@ -26,43 +26,16 @@ This project supports authenticated socket connections, real-time messaging, onl
 
 ---
 
-## Project Structure
-
-realtime-chat-backend/
-│
-├── src/
-│ ├── config/
-│ │ ├── db.js
-│ │ └── socket.js
-│ │
-│ ├── models/
-│ │ ├── User.js
-│ │ └── Message.js
-│ │
-│ ├── routes/
-│ │ ├── auth.routes.js
-│ │ └── chat.routes.js
-│ │
-│ ├── sockets/
-│ │ └── chat.socket.js
-│ │
-│ ├── middleware/
-│ │ └── socketAuth.js
-│ │
-│ ├── app.js
-│ └── server.js
-│
-├── test-socket.js
-├── test-socket2.js
-├── .env
-├── package.json
-└── README.md
-
----
 
 ## Setup Instructions
 
 ### Clone the repository
 ```bash
-git clone <https://github.com/Shubham126/Chat_backend.git>
+git clone https://github.com/Shubham126/Chat_backend.git
 cd realtime-chat-backend
+npm i
+```
+
+## ENV
+- make sure there is env file
+- go through env example
