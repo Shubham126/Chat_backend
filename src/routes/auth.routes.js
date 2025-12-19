@@ -74,4 +74,17 @@ router.post("/login", async (req, res) => {
   }
 });
 
+router.get("/users", async (req, res) => {
+  const users = await User.find().select("_id name email isOnline");
+  res.json(
+    users.map((u) => ({
+      id: u._id,
+      name: u.name,
+      email: u.email,
+      isOnline: u.isOnline,
+    }))
+  );
+});
+
+
 module.exports = router;
