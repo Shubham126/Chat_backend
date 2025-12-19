@@ -1,0 +1,31 @@
+{
+  "name": "realtime-chat-backend",
+  "version": "1.0.0",
+  "description": "Real-time one-to-one chat backend using Socket.IO",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "socket.io",
+    "chat",
+    "backend",
+    "mongodb"
+  ],
+  "author": "Subham Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
