@@ -8,11 +8,10 @@ This project supports authenticated socket connections, real-time messaging, onl
 ## Features
 
 - Socket authentication using JWT
-- Real-time one-to-one messaging (Socket.IO)
-- Online / Offline user presence
+- Real-time one-to-one messaging using Socket.IO
+- Online / Offline user presence using green/grey dots
 - Messages stored in MongoDB
 - Fetch chat history via REST API
-- Clean, modular backend architecture
 
 ---
 
